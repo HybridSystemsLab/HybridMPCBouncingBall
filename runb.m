@@ -58,7 +58,7 @@ for i = 1:3
     modificatorF{5} = num2str(i)
 
     plotHarc(t,j,x(:,1),[],modificatorF,modificatorJ);
-    grid on
+    grid on;
     ylabel('x1')
     hold on 
 
